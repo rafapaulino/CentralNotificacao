@@ -21,6 +21,7 @@
 		6A1176F515E7CA4800BFBF5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1176D315E7CA4800BFBF5F /* Foundation.framework */; };
 		6A1176FD15E7CA4800BFBF5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1176FB15E7CA4800BFBF5F /* InfoPlist.strings */; };
 		6A11770015E7CA4800BFBF5F /* CentralNotificacaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1176FF15E7CA4800BFBF5F /* CentralNotificacaoTests.m */; };
+		6A11770B15E7CA6400BFBF5F /* Temporizador.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A11770A15E7CA6400BFBF5F /* Temporizador.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6A1176FC15E7CA4800BFBF5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1176FE15E7CA4800BFBF5F /* CentralNotificacaoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CentralNotificacaoTests.h; sourceTree = "<group>"; };
 		6A1176FF15E7CA4800BFBF5F /* CentralNotificacaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CentralNotificacaoTests.m; sourceTree = "<group>"; };
+		6A11770915E7CA6400BFBF5F /* Temporizador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temporizador.h; sourceTree = "<group>"; };
+		6A11770A15E7CA6400BFBF5F /* Temporizador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temporizador.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		6A1176C215E7CA4800BFBF5F = {
 			isa = PBXGroup;
 			children = (
+				6A11770915E7CA6400BFBF5F /* Temporizador.h */,
+				6A11770A15E7CA6400BFBF5F /* Temporizador.m */,
 				6A1176D715E7CA4800BFBF5F /* CentralNotificacao */,
 				6A1176F815E7CA4800BFBF5F /* CentralNotificacaoTests */,
 				6A1176D015E7CA4800BFBF5F /* Frameworks */,
@@ -266,6 +271,7 @@
 				6A1176DE15E7CA4800BFBF5F /* main.m in Sources */,
 				6A1176E215E7CA4800BFBF5F /* PrincipalAppDelegate.m in Sources */,
 				6A1176EB15E7CA4800BFBF5F /* PrincipalViewController.m in Sources */,
+				6A11770B15E7CA6400BFBF5F /* Temporizador.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

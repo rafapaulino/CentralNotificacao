@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Temporizador.h"
 
 @interface PrincipalViewController : UIViewController
+
+
+-(IBAction)botaoClicado:(id)sender;
 
 @end
